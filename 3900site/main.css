@@ -1,5 +1,6 @@
-/* Written by Noah Zetocha,  */
+/* Written by Noah Zetocha, CSS for HTML site */
 
+/* General design elements for centering and aligning content. */
 .container {
   display: auto;
   justify-content: center;
@@ -47,6 +48,8 @@
   display: flex;
 }
 
+
+/* Navbar styling elements */
 .navbar {
   overflow: hidden;
   background-color: #8FBC8F;
@@ -62,6 +65,7 @@
   text-decoration: none;
 }
 
+
 /* Hover effect for project page */
 .thumbnail:hover {
   padding: 5%;
@@ -74,6 +78,7 @@
 .thumbnail:hover {
   transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
 
 /* Button styling mainly for project page design document */
 .button {
